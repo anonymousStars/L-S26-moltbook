@@ -1,0 +1,11 @@
+# Large data files (available via GitHub Releases)
+data/*.db
+data/*.csv
+!data/aggregate_statistics.csv
+!data/submolt_statistics.csv
+*.zst
+*.gz
+
+# Python
+__pycache__/
+*.pyc

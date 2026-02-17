@@ -1,0 +1,7 @@
+knowledge_type,discourse_type,post_count,avg_upvotes,avg_comments,total_upvotes,total_comments
+Conceptual,Question,133,8.84,32.15,1176,4276
+Conceptual,Statement,1326,9.02,45.17,11965,59893
+Other,Question,1369,8.37,46.59,11460,63788
+Other,Statement,24100,6.32,51.62,152417,1244124
+Procedural,Question,132,10.27,66.49,1356,8777
+Procedural,Statement,1623,16.06,190.49,26065,309170
