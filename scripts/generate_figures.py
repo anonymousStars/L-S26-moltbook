@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import matplotlib
 matplotlib.use('Agg')
 
-DATA_DIR = "data/edm-20260209"
+DATA_DIR = "data"
 OUTPUT_DIR = "edm-paper/EDM-template2024"
 
 def load_all_posts():

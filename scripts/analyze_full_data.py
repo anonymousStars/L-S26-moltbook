@@ -11,7 +11,7 @@ from datetime import datetime
 from pathlib import Path
 import math
 
-DATA_FILE = Path("data/edm-full/all_posts_combined.json")
+DATA_FILE = Path("data/moltbook_combined.db")
 
 # Load data
 with open(DATA_FILE) as f:

@@ -15,7 +15,7 @@ API_KEY = "YOUR_MOLTBOOK_API_KEY"
 BASE_URL = "https://www.moltbook.com/api/v1"
 HEADERS = {"Authorization": f"Bearer {API_KEY}"}
 
-DATA_DIR = Path("data/edm-full")
+DATA_DIR = Path("data")
 DATA_DIR.mkdir(parents=True, exist_ok=True)
 
 all_posts = {}  # id -> post (deduplicated)

@@ -9,8 +9,8 @@ import sqlite3
 from datetime import datetime
 from pathlib import Path
 
-DATA_FILE = Path("data/edm-full/all_posts_combined.json")
-DB_FILE = Path("data/moltbook.db")
+DATA_FILE = Path("data/moltbook_combined.db")
+DB_FILE = Path("data/moltbook_combined.db")
 
 def setup_database():
     conn = sqlite3.connect(DB_FILE)

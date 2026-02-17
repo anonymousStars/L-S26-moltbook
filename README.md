@@ -15,17 +15,18 @@ Full datasets are available as [GitHub Release assets](https://github.com/anonym
 ### Download & Decompress
 
 ```bash
-# Download via gh CLI
-gh release download v1.0-data
+# Download from GitHub Releases
+gh release download v1.0-data -R anonymousStars/L-S26-moltbook
 
-# Or via curl
-curl -LO https://github.com/anonymousStars/L-S26-moltbook/releases/download/v1.0-data/moltbook_combined.db.zst
-curl -LO https://github.com/anonymousStars/L-S26-moltbook/releases/download/v1.0-data/moltbook_comments_full.db.zst
+# Decompress into data/ directory (where scripts expect them)
+zstd -d moltbook_combined.db.zst -o data/moltbook_combined.db
+zstd -d moltbook_comments_full.db.zst -o data/moltbook_comments_full.db
 
-# Decompress (install zstd: brew install zstd / apt install zstd)
-zstd -d moltbook_combined.db.zst
-zstd -d moltbook_comments_full.db.zst
+# Clean up
+rm -f moltbook_combined.db.zst moltbook_comments_full.db.zst
 ```
+
+See [SETUP.md](SETUP.md) for full setup instructions.
 
 ### Database Schema
 
